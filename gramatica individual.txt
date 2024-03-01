@@ -1,0 +1,14 @@
+S→ F N PM
+F → function
+PM → PA PL PC
+PA → ( 
+PC → )
+PL → V X LT
+V → var
+X → N : T
+N → L RN
+RN → L RN | ε
+L → a...z
+T → boolean | string
+LT → P X LT | ε
+P→ ;
